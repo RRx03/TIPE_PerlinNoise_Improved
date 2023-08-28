@@ -11,6 +11,8 @@
 		268B06952A8F71FD00F41FE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B06942A8F71FD00F41FE5 /* ViewController.swift */; };
 		268B06972A8F71FF00F41FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 268B06962A8F71FF00F41FE5 /* Assets.xcassets */; };
 		268B069A2A8F71FF00F41FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 268B06982A8F71FF00F41FE5 /* Main.storyboard */; };
+		268B06A22A8F720500F41FE5 /* shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 268B06A12A8F720500F41FE5 /* shader.metal */; };
+		268B06A42A8F720A00F41FE5 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268B06A32A8F720A00F41FE5 /* Engine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		268B06962A8F71FF00F41FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		268B06992A8F71FF00F41FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		268B069B2A8F71FF00F41FE5 /* TIPE_PerlinNoiseUpgraded_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TIPE_PerlinNoiseUpgraded_1.entitlements; sourceTree = "<group>"; };
+		268B06A12A8F720500F41FE5 /* shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shader.metal; sourceTree = "<group>"; };
+		268B06A32A8F720A00F41FE5 /* Engine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				268B06962A8F71FF00F41FE5 /* Assets.xcassets */,
 				268B06982A8F71FF00F41FE5 /* Main.storyboard */,
 				268B069B2A8F71FF00F41FE5 /* TIPE_PerlinNoiseUpgraded_1.entitlements */,
+				268B06A12A8F720500F41FE5 /* shader.metal */,
+				268B06A32A8F720A00F41FE5 /* Engine.swift */,
 			);
 			path = TIPE_PerlinNoiseUpgraded_1;
 			sourceTree = "<group>";
@@ -132,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				268B06952A8F71FD00F41FE5 /* ViewController.swift in Sources */,
+				268B06A42A8F720A00F41FE5 /* Engine.swift in Sources */,
+				268B06A22A8F720500F41FE5 /* shader.metal in Sources */,
 				268B06932A8F71FD00F41FE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
